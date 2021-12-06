@@ -9,7 +9,7 @@ An obstacle avoidance game fully built using Android Studio.
 
  ## 📸 Screenshots
 
-![alt text](https://github.com/[TheGoldenPlatypus]/[The_Fancy_Taxi]/blob/[branch]/Fancy_Taxi_Img.png?raw=true)
+![alt text](https://github.com/[TheGoldenPlatypus]/[The_Fancy_Taxi]/blob/[master]/Fancy_Taxi_Img.png?raw=true)
 
  
 
