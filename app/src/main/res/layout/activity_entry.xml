@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_entry_background"
+    tools:context=".activities.EntryActivity">
+
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_marginStart="80dp"
+        android:layout_width="260dp"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/img_logo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/start_game_button"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:text="Start Game"
+        android:textSize="15sp"
+        android:textColor="#CCCC00"
+        android:backgroundTint="@color/cardview_dark_background"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1.5dp"
+        app:cornerRadius="50dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/preferences_button"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:text="Prefernces"
+        android:textSize="15sp"
+        android:textColor="#CCCC00"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_below="@id/start_game_button"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1.5dp"
+        app:cornerRadius="50dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/leaders_board_button"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:text="Leaderboard"
+        android:textSize="15sp"
+        android:textColor="#CCCC00"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_below="@+id/preferences_button"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1.5dp"
+        app:cornerRadius="50dp"
+        />
+
+
+</RelativeLayout>
